@@ -19,7 +19,7 @@ app.use(express.json());
 // Configure CORS middleware
 app.use(
   cors({
-    origin: "https://kartalucia.com",
+    origin: ["https://kartalucia.com","http://localhost:3000"],
   })
 ); // Allow all CORS requests by default
 
